@@ -1,0 +1,148 @@
+body {
+    margin: 10px;
+    background-color: #F0E68C;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-class {
+    display: flex;
+}
+.flex-cla {
+    background-color: #483D8B;
+}
+.flex-it {
+    color: #BDB76B;
+}
+#nav {
+    justify-content: space-between;
+    height: 64px;
+    padding: 10px;
+}
+
+li {
+    padding: 0;
+    margin: 0 2px 0 2px;
+    list-style-type: none;
+}
+
+.menu-items-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+header {
+    background-color: #0A74D7;
+}
+
+#advantages {
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+#advant {
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#main-menu {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#main-menu2 {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF0F5;
+}
+
+.flex-item {
+    color: whitesmoke;
+    background-color: #8B008B;
+    padding: 10px;
+    display: block;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.left-menu-container {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.left-button {
+    background-color: #ffffff;
+    color: #00A8FF;
+}
+
+.buttons{
+    padding: 10px 30px;
+}
+
+.right-button {
+    color: #ffffff;
+    background-color: #ffae00;
+}
+
+.button-div {
+    padding: 10px;
+    text-align: center;
+}
+
+.advantages-items {
+    display: inline-block;
+    padding: 20px;
+    border: 5px;
+    word-wrap: normal;
+    width: 20%;
+}
+.advant-items {
+    display: grid;
+    padding: 20px;
+    border: 0;
+    word-wrap: normal;
+    width: 20%;
+}
+
+
+.media {
+    border: 2px solid #f76707;
+    border-radius: 5px;
+    background-color: #fff4e6;
+    max-width: 1700px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "img content";
+    margin-bottom: 1em;
+}
+
+
+.media .image {
+    grid-area: img;
+    background-color: #fff4e6;
+}
+
+.media .text {
+    grid-area: content;
+    padding: 5px;
+
+}
+
+h2 {
+    text-align: left;
+    padding: 40px;
+}
